@@ -1,0 +1,17 @@
+<header>
+  <div class = "container">
+    <a routerLink = "/" class = "logo">Ghetto Beers</a>
+    <nav>
+      <ul>
+        <!-- This was created so that we can navigate through web app -->
+        <li><a href="#" routerLink="/">Home</a></li>
+        <li><a href="#" routerLink="/products">products</a></li>
+        <li><a href="#" routerLink="/sign-in">Sign In</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- THIS will grab components and put them within the router-outlet tag-->
+<div class = "container"> 
+    <router-outlet></router-outlet>
+</div>
