@@ -1,6 +1,7 @@
 Webstore
 
    Work Done
+   
       - Created navigation bar that allows you to completely naviage through web app
       
       - Added a home page to show what we will be selling on the web app
