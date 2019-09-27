@@ -7,14 +7,22 @@ import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 
-import { HttpClientModule } from '@angular/common/http';  
+import { HttpClientModule } from '@angular/common/http';
+import { DetailsPageComponent } from './details-page/details-page.component';
+import { CartComponent } from './cart/cart.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { OrderFinalizationComponent } from './order-finalization/order-finalization.component';  
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProductsComponent,
-    SignInComponent
+    SignInComponent,
+    DetailsPageComponent,
+    CartComponent,
+    CheckoutComponent,
+    OrderFinalizationComponent
   ],
   imports: [
     BrowserModule,
